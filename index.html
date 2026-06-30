@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya | Profesional & Modern</title>
+    <!-- Menggunakan Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-blue-600 tracking-wide">MY.PORTFOLIO</a>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-blue-600 transition">Beranda</a>
+                <a href="#about" class="hover:text-blue-600 transition">Tentang</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Proyek</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION (BERANDA) -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-6 bg-gradient-to-b from-blue-50 to-slate-50">
+        <div class="max-w-4xl text-center">
+            <h2 class="text-blue-600 font-semibold text-lg md:text-xl mb-2">Halo semua, saya</h2>
+            <h1 class="text-4xl md:text-6xl font-bold text-slate-900 mb-4 tracking-tight">Lalu Garda Arya Novantara</h1>
+            <p class="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
+                Seorang pemula dengan pengalaman di industri teknis, pengembangan game/VFX, dan kontributor aktif dalam ekosistem Web3.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg shadow-lg shadow-blue-500/20 transition">Lihat Proyek</a>
+                <a href="#contact" class="bg-white hover:bg-slate-100 text-slate-800 font-medium px-6 py-3 rounded-lg border border-slate-200 transition">Hubungi Saya</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-24 px-6 max-w-5xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-slate-900 mb-2">Tentang Saya</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto rounded"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    Saya memiliki latar belakang yang beragam, mulai dari pengalaman bertahun-tahun di sektor konstruksi dan drilling, hingga kecintaan mendalam pada dunia digital teknologi. 
+                </p>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    Saat ini, saya aktif mengeksplorasi pengembangan visual efek (VFX) di Roblox Studio, menulis skrip otomasi, serta berkontribusi dalam proyek teknologi Web3 masa depan.
+                </p>
+            </div>
+            <!-- SKILLS -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                <h3 class="font-bold text-lg mb-4 text-slate-900">Keahlian & Teknologi</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-md text-sm font-medium">Roblox Studio & Luau</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-md text-sm font-medium">VFX / Particle Emitters</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-md text-sm font-medium">HTML & CSS</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-md text-sm font-medium">JavaScript</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-md text-sm font-medium">Web3 / Blockchain Contributor</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-md text-sm font-medium">Project Management</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-24 px-6 bg-slate-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-2">Proyek Terbaru</h2>
+                <div class="w-16 h-1 bg-blue-600 mx-auto rounded"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Proyek 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-slate-200">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center text-slate-400 text-4xl font-bold">🎮</div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-slate-900">Roblox Game VFX</h3>
+                        <p class="text-slate-600 text-sm mb-4">Pengembangan efek visual kustom menggunakan ParticleEmitters, Trails, dan script Luau untuk pergerakan aura yang dinamis.</p>
+                    </div>
+                </div>
+                <!-- Proyek 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-slate-200">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center text-slate-400 text-4xl font-bold">🌐</div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-slate-900">Web3 Ecosystem Contribution</h3>
+                        <p class="text-slate-600 text-sm mb-4">Berpartisipasi aktif sebagai kontributor komunitas global dalam mempromosikan dan mendukung privasi jaringan Web3.</p>
+                    </div>
+                </div>
+                <!-- Proyek 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-slate-200">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center text-slate-400 text-4xl font-bold">🤖</div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-slate-900">Automation Script</h3>
+                        <p class="text-slate-600 text-sm mb-4">Pembuatan alat bantu otomatisasi sederhana untuk meningkatkan efisiensi alur kerja digital sehari-hari.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-24 px-6 max-w-4xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-slate-900 mb-2">Hubungi Saya</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto rounded"></div>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-center">
+            <p class="text-slate-600 mb-6">Tertarik untuk berkolaborasi atau punya pertanyaan? Silakan kirimkan pesan langsung melalui tombol di bawah ini.</p>
+            <a href="mailto:email-kamu@example.com" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-lg shadow-lg shadow-blue-500/20 transition">
+                Kirim Email 📩
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 text-center py-8 text-sm border-t border-slate-800">
+        <p>&copy; 2026 Lalu Garda Arya Novantara. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
